@@ -1,0 +1,89 @@
+* { 
+    box-sizing: border-box;
+    padding: 0; margin: 0;
+    font-family: Inter,sans serif;
+}
+
+
+:root {
+     --green: hsl(75, 94%, 57%);
+     --White: hsl(0, 0%, 100%);
+    --Grey: hsl(0, 0%, 20%);
+    --Dark-Grey: hsl(0, 0%, 12%);
+    --Off-Black: hsl(0, 0%, 8%);
+
+    background-color: var(--Off-Black);
+
+   scroll-behavior: smooth;
+    cursor: pointer;
+    
+}
+body {
+     display: flex; justify-content: center;
+     align-items: center;
+    height: 100vh;
+    color: var(--White);
+     
+}
+#Hero { 
+     max-width: 320px; 
+max-height: 80vh;     flex-shrink: initial;
+
+     display: flex; flex-direction: column;
+     justify-content: space-around; align-items: center;
+     padding: 5px 8px;
+     border-radius: 5px;
+     background-color: var(--Dark-Grey);
+     
+}
+img {
+     border-radius: 100%; object-fit: contain;
+     aspect-ratio: 1/2; width: 4em; height: 4em;
+     margin: 1em;
+    }
+header {
+     font-size: 1.4em;
+     margin-bottom: 12px;
+}
+span {
+     color: var(--green);
+     font-size: 10px; font-weight: 600;
+}
+p {
+     font-size: 13px; font-weight: 400;
+     margin: 1.7em 0 1.2em 0;
+}
+footer {
+     max-width: 266px; 
+     max-height: max-content;
+     display: flex; flex-direction: column;
+     background-color: var(--Dark-Grey);
+}
+article { 
+    min-width: 14em;
+     max-height: 2em;
+    display: flex; justify-content: center; align-items: center;
+    background-color: var(--Grey);
+    
+    margin: 0.5em; border-radius: 5px;
+   
+}
+article p {
+     font-size: 12px;
+}
+article:hover {
+     background-color: var(--green);
+     transition: 0.5s;
+
+}    
+
+
+
+
+
+
+
+
+
+
+
